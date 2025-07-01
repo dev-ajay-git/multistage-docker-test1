@@ -1,13 +1,7 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-<head><title>Add Employee</title></head>
+<head><title>Home</title></head>
 <body>
-  <h2>Add Employee</h2>
-  <form action="add" method="post">
-    Name: <input type="text" name="name"/>
-    <input type="submit" value="Add"/>
-  </form>
-  <br/>
-  <a href="list">View All Employees</a>
+<h2>Welcome to Employee Dashboard</h2>
+<a href="list">Go to Employee List</a>
 </body>
 </html>
